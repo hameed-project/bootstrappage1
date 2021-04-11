@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Pacifico&family=Righteous&family=Roboto&family=Ubuntu&display=swap');
+
+body{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'lato';
+}
+/* Nav header section */
+.navbar-brand{
+    font-family: 'Pacifico';
+    font-size: 35px;
+    color: lightcoral;
+}
+
+.nav-link{
+    font-size: 16px;
+    margin: 15px;
+    color: #000000 !important;
+    font-family: 'Roboto';
+}
+
+.nav-link:hover{
+    color:aqua !important;
+}
+
+.active .nav-link{
+    color:red !important;
+}
+.menu-right-btn{
+    padding: 13px 46px;
+    margin-right: 4%;
+    background-color: transparent;
+    transition: all 300ms ease-in;
+}
+.menu-right-btn:hover{
+    background-color: aqua;
+}
+
+/* End Nav header section */
+
+/* Main site-section */
+
+.site-title, .site-content{
+    color: #000000;
+    font-family: 'Righteous';
+}
+
+.site-title{
+    margin-top: 30%;
+    margin-bottom: 6%;
+    font-size: 50px;
+}
+
+.site-desc{
+    font-size: 24px;
+    padding-left: 0%;
+}
+
+.site-btn1{
+    background-color: #000000;
+    margin-left: 25%;
+    color: #ffffff;
+}
+
+.site-btn2{
+    background-color: #ffffff;
+}
+
+.site-btn1, .site-btn2{
+    margin-top:5%;
+    margin-bottom: 25%;
+}
+
+/* End Main site-section */
+
+/* Card Section */
+
+.section-1{
+    margin-bottom: 8%;
+}
+.section-1 .heading-1{
+    margin-top: 8%;
+}
+.section-1 .heading-2{
+    margin-bottom:5%;
+    font-size:39px;
+}
+.section-1 .para-1{
+    width:60% ;
+    margin-left: 20%;
+    margin-bottom: 5%;
+}
+
+.section-1 .para-1 .card-text{
+    color: rgb(0, 0, 0, 0.59);
+}
+.card{
+    width:20rem;
+}
+/* End Card Section */
+/* Section-2 */
+/* .section-2 .container-fluid{
+    background-image: url("images/2.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+} */
+
+.section-2 .heading-1{
+    margin-top: 20%;
+    margin-bottom: 4%;
+    font-family: 'Righteous';
+    width: 80%;
+    color: whitesmoke;
+}
+
+.section-2 .para{
+    width: 80%;
+    font-family: 'Ubuntu';
+    color: whitesmoke;
+    margin-bottom: 7%;
+}
+
+.section-2 .btn{
+margin-bottom: 15%;
+width: 30%;
+padding: 2% 5%;
+}
+/* Section-3 */
+.section-3{
+    margin-top: 6%;
+}
+.section-3 i{
+    color: aqua;
+}
+.section-3 p{
+    color:rgba(0, 0, 0, 0.59)
+}
+
+.section-4{
+    margin-top: 8%;
+}
+.section-4 .row .col-md-7, .col-md-5{
+margin-top: 10%;
+margin-bottom: 10%;
+}
+
+.section-4 a{
+    color: aqua;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+.section-4 .para-1{
+    color: white;
+    font-size: 'Rightous';
+    margin-top: 7%;
+    font-size: 23px;
+
+}
+.section-4 .col-md-7 img{
+    width:590px;
+}
+
+/* footer */
+.social i{
+    color:red;
+    font-size:20px;
+}
